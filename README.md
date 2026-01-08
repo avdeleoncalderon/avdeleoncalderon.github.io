@@ -16,8 +16,7 @@ Análisis de datos | Resolución de problemas | Comunicación efectiva | Trabajo
 &nbsp; <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge\&logo=linkedin\&logoColor=white" alt="LinkedIn">
 </a>-->
 [![LinkedIn](https://img.shields.io/badge/linkedin-%23295F98.svg?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/ari-vladimir/)
-[![Outlook](https://img.shields.io/badge/Microsoft\_Outlook-295F98?style=for-the-badge\&logo=microsoft-outlook\&logoColor=white)](av.deleoncalderon@gmail.com)
-
+[![Gmail](https://img.shields.io/badge/Gmail-357ebd?style=for-the-badge&logo=gmail&logoColor=white)](av.deleoncalderon@gmail.com)
 * * *
 
 # Proyectos Seleccionados
