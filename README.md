@@ -1,334 +1,111 @@
-\# Acerca de mí
+# Acerca de mí
 
-
-
-Economista y financiera certificada en análisis de datos con sólida experiencia en extracción, limpieza y modelado de datos estratégicos. 
-
-
+Ingeniero mecánico certificado en análisis de datos con sólida experiencia en extracción, limpieza y modelado de datos estratégicos. 
 
 Genero insights accionables que optimizan procesos y apoyan la toma de decisiones estratégicas, logrando ahorros significativos de tiempo mediante la automatización.
 
+### Habilidades tecnológicas
+- Análisis y gestión de datos utilizando **Excel / SQL / Python / R**
+- Visualización de datos y narración de historias usando **Tableau**
 
-
-\### Habilidades tecnológicas
-
-\- Análisis y gestión de datos utilizando \*\*Excel / SQL / Python / R\*\*
-
-\- Visualización de datos y narración de historias usando \*\*Tableau\*\*
-
-
-
-\### Habilidades blandas
-
+### Habilidades blandas
 Análisis de datos | Resolución de problemas | Comunicación efectiva | Trabajo en equipo | Orientación a resultados | Organización | Proactividad | Atención al detalle | Optimización de Procesos
 
-
-
 <!-- PARA HACER QUE EL LINK ABRA EN OTRA PESTAÑA
-
 <a href="https://www.linkedin.com/in/marielalegoma/" target="\_blank">
-
 &nbsp; <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge\&logo=linkedin\&logoColor=white" alt="LinkedIn">
-
 </a>-->
-
-\[!\[LinkedIn](https://img.shields.io/badge/linkedin-%23295F98.svg?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/malegoma/)
-
-\[!\[Outlook](https://img.shields.io/badge/Microsoft\_Outlook-295F98?style=for-the-badge\&logo=microsoft-outlook\&logoColor=white)](mailto:mariel\_goma@outlook.com)
-
-
-
-\* \* \*
-
-
-
-\# Proyectos seleccionados
-
-
-
-\## Análisis de retención de clientes para gimnasio
-
-En todas las industrias, la retención de clientes es fundamental para garantizar \*\*ingresos sostenibles\*\* y \*\*reducir los costos asociados con la adquisición de nuevos clientes\*\*. Identificar los factores clave que influyen en la retención y cancelación permite al gimnasio Model Fitness anticiparse a los riesgos de abandono, \*\*diseñar estrategias de fidelización efectivas\*\* y \*\*personalizar las experiencias para cada cliente\*\*.
-
-
-
-\#### Herramientas y tipo de proyecto
-
-!\[Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge\&logo=python\&logoColor=white)
-
-!\[Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge\&logo=pandas\&logoColor=white)
-
-!\[Seaborn](https://img.shields.io/badge/Seaborn-357ebd?style=for-the-badge)
-
-!\[scikit-learn](https://img.shields.io/badge/scikit--learn-%23357ebd.svg?style=for-the-badge\&logo=scikit-learn\&logoColor=white)
-
-!\[Limpieza de datos](https://img.shields.io/badge/Limpieza\_de\_datos-295F98?style=for-the-badge)
-
-!\[Transformación de datos](https://img.shields.io/badge/Transformación\_de\_datos-295F98?style=for-the-badge)
-
-!\[Análisis de datos](https://img.shields.io/badge/Análisis\_de\_datos-295F98?style=for-the-badge)
-
-!\[Modelos de predicción](https://img.shields.io/badge/Modelos\_de\_predicción-295F98?style=for-the-badge)
-
-
-
-\### Preguntas clave
-
-1\. ¿Qué factores demográficos o de comportamiento influyen más en la cancelación?
-
-2\. ¿Qué características diferencian a los clientes leales de los que abandonan?
-
-3\. ¿Cómo se pueden segmentar los clientes para diseñar estrategias personalizadas?
-
-
-
-\### Metodología
-
-\- \*\*Preprocesamiento de datos:\*\* Se limpiaron y estandarizaron los datos, eliminando inconsistencias y verificando la ausencia de duplicados y valores faltantes.
-
-\- \*\*Explorartory Data Analysis (EDA):\*\* Se analizaron características demográficas y de uso, identificando patrones en clientes que permanecen y los que cancelan.
-
-\- \*\*Modelado predictivo:\*\* Se entrenaron modelos de regresión logística y bosque aleatorio para predecir la cancelación de clientes con un precisión del 85% y 84%, respectivamente.
-
-\- \*\*Clustering:\*\* Se segmentaron los clientes en grupos utilizando K-means para identificar comportamientos similares.
-
-
-
-\### Conclusiones y recomendaciones
-
-
-
-\#### Factores críticos de retención:
-
-\- La proximidad al gimnasio, contratos más largos, la participación en sesiones grupales y mayor frecuencia de visitas están fuertemente asociados con una menor tasa de cancelación.
-
-\- Clientes jóvenes, con contratos cortos y baja frecuencia de visitas, tienen mayores tasas de cancelación.
-
-
-
-\#### Estrategias recomendadas:
-
-\- \*\*Extender contratos cortos:\*\* Ofrecer incentivos para ampliar contratos de 1 mes.
-
-\- \*\*Promover actividades grupales:\*\* Diseñar campañas que destaquen los beneficios de participar en sesiones grupales.
-
-\- \*\*Campañas personalizadas:\*\* Utilizar el modelo predictivo para identificar clientes en riesgo y ofrecer promociones específicas.
-
-\- \*\*Segmentación proactiva:\*\* Clasificar clientes nuevos por edad y duración de contrato para diseñar estrategias de retención desde el inicio.
-
-
-
-\### Visualizaciones destacadas
-
-1\. \*\*Distribución de cancelación según duración del contrato:\*\* Observamos que quienes cancelaron suelen contratar en su mayoría 1 mes, al igual que quienes no cancelan. Sin embargo, quienes permanecen suelen también contratar por periodos de 1 año y 6 meses, mientras que los que cancelan en su minoría contratan en dichos periodos.
-
-!\[Contract Period Histogram](/assets/img/p01\_contract\_period\_histogram.png)
-
-2\. \*\*Matriz de correlaciones:\*\* Se encontró que Las características `month\_to\_end\_contract` y `contract\_period` están altamente correlacionadas (0.9), lo que sugiere que se debe tener cuidado con la multicolinealidad al desarrollar modelos predictivos.
-
-!\[Corr Matrix Churn Data](/assets/img/p01\_gym\_churn\_corr.png)
-
-3\. \*\*Análisis de clústeres:\*\* El dendrograma muestran cómo los clientes se agrupan en segmentos distintos basados en sus características, donde el número óptimo de clústeres sugerido es 4.
-
-!\[Dendrogram](/assets/img/p01\_dendrogram.png)
-
-
-
-\*\*Explora más detalles del proyecto en el \[repositorio completo](https://github.com/MaleGoma/customer-retention-analysis).\*\*
-
-
-
-\## Optimización de gastos de marketing
-
-El objetivo de este proyecto es \*\*optimizar los gastos de marketing\*\* de Y.Afisha mediante el análisis de \*\*datos de visitas, pedidos y costos publicitarios\*\*. El estudio busca comprender el \*\*comportamiento del usuario\*\*, identificar \*\*fuentes de adquisición rentables\*\* y calcular métricas clave como el \*\*Costo de Adquisición de Clientes (CAC)\*\*, el \*\*Valor de Vida del Cliente (LTV)\*\* y el \*\*Retorno de la Inversión en Marketing (ROMI)\*\*.
-
-
-
-\#### Herramientas y tipo de proyecto
-
-!\[Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge\&logo=python\&logoColor=white)
-
-!\[Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge\&logo=pandas\&logoColor=white)
-
-!\[Matplotlib](https://img.shields.io/badge/Matplotlib-%23357ebd.svg?style=for-the-badge\&logo=Matplotlib\&logoColor=black)
-
-!\[Seaborn](https://img.shields.io/badge/Seaborn-357ebd?style=for-the-badge)
-
-!\[NumPy](https://img.shields.io/badge/NumPy-%23357ebd.svg?style=for-the-badge\&logo=scipy\&logoColor=white)
-
-!\[Limpieza de datos](https://img.shields.io/badge/Limpieza\_de\_datos-295F98?style=for-the-badge)
-
-!\[Transformación de datos](https://img.shields.io/badge/Transformación\_de\_datos-295F98?style=for-the-badge)
-
-!\[Análisis de datos](https://img.shields.io/badge/Análisis\_de\_datos-295F98?style=for-the-badge)
-
-!\[Análisis de cohortes](https://img.shields.io/badge/Análisis\_de\_cohortes-295F98?style=for-the-badge)
-
-!\[Visualización de datos](https://img.shields.io/badge/Visualización\_de\_datos-295F98?style=for-the-badge)
-
-
-
-\### Preguntas clave
-
-1\. ¿Cuántos usuarios activos diarios, semanales y mensuales tiene la aplicación?
-
-2\. ¿Cuáles son las principales fuentes de adquisición de clientes y su rentabilidad?
-
-3\. ¿Qué métricas de ventas y conversiones se pueden mejorar?
-
-4\. ¿Qué tan efectiva es cada fuente de marketing según su ROMI?
-
-
-
-\### Metodología
-
-\- \*\*Preprocesamiento de datos:\*\* Limpieza de datos (valores ausentes, duplicados, formatos de columnas, y tipos de datos adecuados).
-
-\- \*\*Análisis del comportamiento de usuarios\*\* Cálculo de métricas como usuarios activos diarios (DAU), semanales (WAU) y mensuales (MAU), duración de sesiones y frecuencia de retorno.
-
-\- \*\*Análisis de ventas:\*\* Evaluación del tamaño promedio de compra, pedidos por cliente y LTV.
-
-\- \*\*Pruebas de hipótesis:\*\* Cálculo de CAC, ROMI y costos por fuente de adquisición.
-
-
-
-\### Conclusiones y recomendaciones
-
-
-
-\#### Comportamiento de usuarios, Ventas y Marketing:
-
-\- El 16% de los usuarios regresa semanalmente, pero solo el 4% vuelve mensualmente, indicando una posible necesidad de campañas de retención.
-
-\- El tamaño promedio de compra es de $5, con algunos picos en diciembre debido a promociones estacionales. La mayoría de los usuarios realiza un pedido por mes.
-
-\- Las fuentes con mayor ROMI es 1, 5 y 9 pues, antes de que las cohortes cumplan el primer mes de edad, el ROMI casi alcanza el 1 en la mayoría de cohortes.
-
-\- Destaca la fuente 1 donde, a pesar de ser la segunda fuente en la que menos se gasta, es 3era fuente que más usuarios atrae.
-
-
-
-\#### Recomendaciones:
-
-\- Descontinuar las fuentes 7, 9 y 10 debido a su bajo rendimiento.
-
-\- Reducir la inversión en la fuente 3, ya que no genera retornos significativos.
-
-\- Invertir en la fuente 1, que sigue siendo una aliada clave con baja inversión y alto rendimiento.
-
-
-
-\### Visualizaciones destacadas
-
-1\. \*\*Usuarios Activos Semanales (WAU):\*\* Se observa una tendencia a la alza a partir de la semana 31 de 2017, con una caída drástica en la semana 53 del mismo año. Se observa una disminución en usuarios en la semana 13, 17 y 18 de 2019.
-
-!\[WAU Chart](/assets/img/p04\_wau\_chart.png)
-
-3\. \*\*LTV por cohorte:\*\* Cada cliente de la primera cohorte representó un ingreso de $11.88. Además, la cohorte de septiembre de 2017 representó ingresos de $13.44 por cliente.
-
-!\[LTV Heat Chart](/assets/img/p04\_ltv\_heat\_chart.png)
-
-
-
-\*\*Explora más detalles del proyecto en el \[repositorio completo](https://github.com/MaleGoma/marketing-spending-optimization).\*\*
-
-
-
-\## Análisis de comportamiento de usuarios y embudo de ventas
-
-Este proyecto analiza el embudo de ventas de la aplicación de una empresa de alimentos para \*\*identificar las etapas con mayores pérdidas de usuarios\*\* y evalúa, mediante un experimento A/A/B, si un nuevo diseño de fuentes puede \*\*mejorar la conversión\*\* en comparación con el diseño actual. El objetivo es proporcionar \*\*insights basados en datos\*\* que guíen \*\*decisiones estratégicas sobre diseño y funcionalidad\*\*.
-
-
-
-\#### Herramientas y tipo de proyecto
-
-!\[Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge\&logo=python\&logoColor=white)
-
-!\[Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge\&logo=pandas\&logoColor=white)
-
-!\[Seaborn](https://img.shields.io/badge/Seaborn-357ebd?style=for-the-badge)
-
-!\[Plotly](https://img.shields.io/badge/Plotly-%23357ebd.svg?style=for-the-badge\&logo=plotly\&logoColor=white)
-
-!\[Limpieza de datos](https://img.shields.io/badge/Limpieza\_de\_datos-295F98?style=for-the-badge)
-
-!\[Transformación de datos](https://img.shields.io/badge/Transformación\_de\_datos-295F98?style=for-the-badge)
-
-!\[Análisis de datos](https://img.shields.io/badge/Análisis\_de\_datos-295F98?style=for-the-badge)
-
-!\[Tests A/B](https://img.shields.io/badge/Tests\_A/B-295F98?style=for-the-badge)
-
-!\[Pruebas de hipótesis](https://img.shields.io/badge/Pruebas\_de\_hipótesis-295F98?style=for-the-badge)
-
-!\[Visualización de datos](https://img.shields.io/badge/Visualización\_de\_datos-295F98?style=for-the-badge)
-
-
-
-\### Preguntas clave
-
-1\. ¿Qué eventos del embudo de ventas tienen mayores tasas de abandono?
-
-2\. ¿Qué porcentaje de usuarios completa el embudo de ventas desde el inicio hasta el pago?
-
-3\. ¿El cambio en el diseño de las fuentes afecta significativamente la conversión?
-
-4\. ¿Hay diferencias estadísticas entre los grupos de control y el grupo de prueba?
-
-
-
-\### Metodología
-
-\- \*\*Preprocesamiento de datos:\*\* Se ajustaron los nombres de las columnas, se eliminaron duplicados y se filtraron registros incompletos.
-
-\- \*\*Análisis del embudo de ventas:\*\* Se identificaron eventos clave y la proporción de usuarios que avanzan entre etapas.
-
-\- \*\*Experimentación A/A/B:\*\* Se compararon conversiones entre grupos de control y prueba mediante pruebas de hipótesis estadísticas.
-
-
-
-\### Conclusiones y recomendaciones
-
-
-
-\#### Embudo de ventas:
-
-\- El evento OffersScreenAppear es donde más usuarios abandonan (61.9%).
-
-\- Solo el 47.7% de los usuarios completa el embudo de ventas hasta el pago exitoso.
-
-
-
-\#### Resultados del experimento:
-
-\- No se encontraron diferencias estadísticas significativas entre los grupos de control y el grupo de prueba.
-
-\- Las nuevas fuentes no generan un impacto positivo en la conversión, por lo que no se recomienda implementar este cambio.
-
-
-
-\#### Recomendaciones:
-
-\- Optimizar la pantalla de ofertas para retener más usuarios en esa etapa.
-
-\- Priorizar otros cambios en el diseño o funcionalidad de la aplicación con mayor potencial de impacto.
-
-
-
-\### Visualizaciones destacadas
-
-1\. \*\*Embudo de ventas:\*\* La etapa en la que más se pierden usuarios es en el Tutorial, donde solo el 23.7% de los usuarios en la etapa anterior llegan a esta. La siguiente etapa donde se pierden más usuarios es en OfferScreenAppear, donde el 61.9% de los usuarios de la etapa anterior pasan a esta.
-
-!\[Sales Funner Chart](/assets/img/p03\_sales\_funnel\_chart.png)
-
-2\. \*\*Periodo de tiempo de los datos:\*\* Los datos completos están disponibles a partir del 1 de agosto de 2019, por lo que se descartaron fechas anteriores. El periodo actualizado abarca del 1 al 7 de agosto de 2019.
-
-!\[Time Period Data](/assets/img/p03\_time\_period\_data.png)
-
-
-
-\*\*Explora más detalles del proyecto en el \[repositorio completo](https://github.com/MaleGoma/sales-funnel-analysis).\*\*
-
-
+[![LinkedIn](https://img.shields.io/badge/linkedin-%23295F98.svg?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/ari-vladimir/)
+[![Outlook](https://img.shields.io/badge/Microsoft\_Outlook-295F98?style=for-the-badge\&logo=microsoft-outlook\&logoColor=white)](av.deleoncalderon@gmail.com)
+
+* * *
+
+# Proyectos Seleccionados
+
+## Panel Interactivo del Mercado Automotriz: Desarrollo de Aplicación Web y Despliegue en la Nube
+En la industria automotriz, comprender las tendencias del mercado y el estado de los vehículos es vital para tomar decisiones de compra o venta informadas. Este proyecto se enfoca en construir una aplicación web funcional que permite a los usuarios explorar interactivamente un conjunto de datos de anuncios de venta de coches, transformando datos crudos en insights visuales accionables a través de un panel de control en la nube.
+
+#### Herramientas y Tipo de Proyecto
+![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Git](https://img.shields.io/badge/Git-295F98?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-295F98?style=for-the-badge&logo=github&logoColor=white)
+![Render](https://img.shields.io/badge/Render-295F98?style=for-the-badge&logo=render&logoColor=white)
+![Limpieza de datos](https://img.shields.io/badge/Limpieza_de_datos-295F98?style=for-the-badge)
+![Transformación de datos](https://img.shields.io/badge/Transformación_de_datos-295F98?style=for-the-badge)
+![Análisis de datos](https://img.shields.io/badge/Análisis_de_datos-295F98?style=for-the-badge)
+
+### Preguntas Clave
+1. ¿Cómo se distribuye el kilometraje (odómetro) de los vehículos en el mercado?
+2. ¿Existe una correlación clara entre el precio de un vehículo y su condición física?
+3. ¿Cómo podemos desplegar una herramienta de datos que sea accesible para cualquier usuario a través de un navegador web?
+
+### Metodología
+- **Gestión de Entornos:** Se creó un entorno virtual de Python aislado y se gestionaron las dependencias mediante requirements.txt para garantizar un despliegue consistente.
+- **Análisis Exploratorio de Datos (EDA):** Se realizó un análisis inicial en Jupyter Notebooks utilizando Plotly Express para identificar variables clave como precio, año del modelo y kilometraje.
+- **Desarrollo Web:** Se construyó un panel interactivo con Streamlit, implementando lógica para gráficos dinámicos activados por entradas del usuario (botones y casillas de verificación).
+- **Despliegue CI/CD:** Se desplegó con éxito la aplicación en la plataforma en la nube Render, vinculada directamente a GitHub para permitir la integración continua.
+
+### Conclusiones e Impacto del Proyecto
+#### Logros Técnicos:
+- **Escalabilidad:** La aplicación está diseñada para manejar conjuntos de datos CSV de manera eficiente, proporcionando visualizaciones en tiempo real sin necesidad de reiniciar todo el código del back-end.
+- **Experiencia de Usuario:** Mediante el uso de componentes interactivos, los usuarios pueden alternar entre histogramas y gráficos de dispersión, haciendo que la exploración de datos sea intuitiva para partes interesadas no técnicas.
+
+### Insights de Negocio:
+- **Sensibilidad al Precio:** El análisis del gráfico de dispersión revela cómo la "condición" del vehículo impacta significativamente en la relación precio-kilometraje, un factor crítico para establecer precios competitivos.
+- **Distribución del Mercado:** Visualizar la distribución del odómetro ayuda a identificar los "niveles de uso" más comunes disponibles en los anuncios de venta actuales.
+
+### Visualizaciones Destacadas
+1. **Histograma Interactivo:** Los usuarios pueden generar una distribución de las lecturas del odómetro para entender el desgaste típico de los vehículos listados.
+
+2. **Análisis de Gráfico de Dispersión:** Un gráfico dinámico que muestra la relación entre el precio y el kilometraje, codificado por colores según la condición del vehículo para identificar valores atípicos y el valor de mercado.
+
+**Explora la aplicación en vivo [aquí](https://project-922y.onrender.com/) o revisa el [repositorio completo](https://github.com/avdeleoncalderon/project).**
+
+## Análisis de patrones de transporte y factores externos: Zuber Chicago
+El objetivo de este proyecto es identificar los patrones de preferencia de los pasajeros y el impacto de factores externos (clima) en los viajes compartidos de la startup Zuber en Chicago. El estudio combina la extracción de datos mediante Web Scraping, consultas avanzadas en SQL para el análisis de competidores y pruebas estadísticas en Python para validar hipótesis sobre la duración de los viajes.
+
+#### Herramientas y tipo de proyecto
+![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-357ebd?style=for-the-badge)
+![Plotly](https://img.shields.io/badge/Plotly-%23357ebd.svg?style=for-the-badge&logo=plotly&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-%23357ebd.svg?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-%23357ebd.svg?style=for-the-badge&logo=beautifulsoup&logoColor=white)
+![Web Scraping](https://img.shields.io/badge/Web_Scraping-%23357ebd.svg?style=for-the-badge)
+![SciPy](https://img.shields.io/badge/SciPy-%23357ebd.svg?style=for-the-badge&logo=scipy&logoColor=white)
+![Estadística Inferencial](https://img.shields.io/badge/Estadística_Inferencial-%23357ebd.svg?style=for-the-badge)
+![Hypothesis Testing](https://img.shields.io/badge/Hypothesis_Testing-%23357ebd.svg?style=for-the-badge)
+
+### Preguntas clave
+1. ¿Quiénes son los líderes actuales del mercado de taxis en Chicago?
+2. ¿Cuáles son los barrios con mayor demanda de viajes finalizados?
+3. ¿Cómo afectan las condiciones meteorológicas adversas a la duración de los viajes hacia el aeropuerto?
+4. ¿Es significativa la diferencia de tiempo de traslado en sábados lluviosos?
+
+### Metodología
+- **Recolección de datos:** Extracción de registros meteorológicos mediante Web Scraping y procesamiento de bases de datos relacionales con SQL (JOINs, CASE, agregaciones).
+- **Análisis Exploratorio (EDA):** Identificación de la concentración del mercado y destinos críticos como el "Loop" y el aeropuerto "O'Hare" mediante Python.
+- **Pruebas de Hipótesis:** Aplicación de la prueba t de Student para muestras independientes (Prueba de Welch) para comparar duraciones de viajes bajo distintas condiciones climáticas.
+- **Segmentación Climática:** Clasificación de intervalos temporales en categorías "Good" (Buen clima) y "Bad" (Tormenta/Lluvia).
+
+#### Conclusiones y recomendaciones
+
+#### Paisaje del Mercado y Geografía:
+- Dominio de Flash Cab: La empresa lidera con más de 19,000 viajes en el periodo analizado, casi duplicando a su competidor más cercano, sugiriendo una infraestructura de flota superior.
+- Hub Financiero: El "Loop" y "River North" concentran la mayor demanda, confirmando que el tráfico es predominantemente corporativo y turístico.
+- Sensibilidad Climática: Se rechazó la hipótesis nula con un p-value < 0.05, confirmando que el mal clima incrementa significativamente la duración de los viajes.
+
+#### Recomendaciones:
+- Tarificación Dinámica: Ajustar los algoritmos de precios durante días lluviosos para compensar el incremento en la duración del viaje.
+- Optimización de Flota: Concentrar la disponibilidad de conductores en el "Loop" durante las horas pico y reforzar la presencia en el Aeropuerto O'Hare.
+- Gestión de Expectativas (ETA): Informar al usuario sobre tiempos de llegada más largos en condiciones de "Bad weather" para mejorar la experiencia del cliente.
+
+Visualizaciones destacadas
+1. **Top 10 Empresas de Taxis:** Se observa un mercado altamente concentrado donde una sola empresa (Flash Cab) posee una ventaja competitiva masiva sobre las otras 63 registradas.
+2. **Top 10 Barrios de Destino:** La drástica caída en el volumen después de los primeros cuatro barrios resalta la importancia logística del centro neurálgico de Chicago.
+
+**Explora más detalles del proyecto en el [repositorio completo](https://github.com/avdeleoncalderon/portfolio/tree/main/04-sprint8-proyecto).**
 
 <!--## Análisis de ventas de videojuegos
 
