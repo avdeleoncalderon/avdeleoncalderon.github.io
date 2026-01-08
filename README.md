@@ -15,7 +15,7 @@ Análisis de datos | Resolución de problemas | Comunicación efectiva | Trabajo
 <a href="https://www.linkedin.com/in/marielalegoma/" target="\_blank">
 &nbsp; <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge\&logo=linkedin\&logoColor=white" alt="LinkedIn">
 </a>-->
-[![LinkedIn](https://img.shields.io/badge/linkedin-%23295F98.svg?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/ari-vladimir/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-357ebd?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ari-vladimir/).
 [![Gmail](https://img.shields.io/badge/Gmail-357ebd?style=for-the-badge&logo=gmail&logoColor=white)](av.deleoncalderon@gmail.com)
 * * *
 
