@@ -56,9 +56,9 @@ En la industria automotriz, comprender las tendencias del mercado y el estado de
 
 ### Visualizaciones Destacadas
 1. **Histograma Interactivo:** Los usuarios pueden generar una distribución de las lecturas del odómetro para entender el desgaste típico de los vehículos listados.
-
+![km](/assets/km.png)
 2. **Análisis de Gráfico de Dispersión:** Un gráfico dinámico que muestra la relación entre el precio y el kilometraje, codificado por colores según la condición del vehículo para identificar valores atípicos y el valor de mercado.
-
+![kk](/assets/kk.png)
 **Explora la aplicación en vivo [aquí](https://project-922y.onrender.com/) o revisa el [repositorio completo](https://github.com/avdeleoncalderon/project).**
 
 ## Análisis de patrones de transporte y factores externos: Zuber Chicago
@@ -102,8 +102,9 @@ El objetivo de este proyecto es identificar los patrones de preferencia de los p
 
 Visualizaciones destacadas
 1. **Top 10 Empresas de Taxis:** Se observa un mercado altamente concentrado donde una sola empresa (Flash Cab) posee una ventaja competitiva masiva sobre las otras 63 registradas.
+![t10e](/assets/t10e.png)
 2. **Top 10 Barrios de Destino:** La drástica caída en el volumen después de los primeros cuatro barrios resalta la importancia logística del centro neurálgico de Chicago.
-
+![t10b](/assets/t10b.png)
 **Explora más detalles del proyecto en el [repositorio completo](https://github.com/avdeleoncalderon/portfolio/tree/main/04-sprint8-proyecto).**
 
 <!--## Análisis de ventas de videojuegos
