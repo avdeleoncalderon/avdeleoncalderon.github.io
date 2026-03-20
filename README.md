@@ -11,209 +11,151 @@ Genero insights accionables que optimizan procesos y apoyan la toma de decisione
 ### Habilidades blandas
 Análisis de datos | Resolución de problemas | Comunicación efectiva | Trabajo en equipo | Orientación a resultados | Organización | Proactividad | Atención al detalle | Optimización de Procesos
 
-<!-- PARA HACER QUE EL LINK ABRA EN OTRA PESTAÑA
-<a href="https://www.linkedin.com/in/marielalegoma/" target="\_blank">
-&nbsp; <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge\&logo=linkedin\&logoColor=white" alt="LinkedIn">
-</a>-->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-357ebd?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ari-vladimir/).
 [![Gmail](https://img.shields.io/badge/Gmail-357ebd?style=for-the-badge&logo=gmail&logoColor=white)](av.deleoncalderon@gmail.com)
 * * *
 
 # Proyectos Seleccionados
 
-## Panel Interactivo del Mercado Automotriz: Desarrollo de Aplicación Web y Despliegue en la Nube
-En la industria automotriz, comprender las tendencias del mercado y el estado de los vehículos es vital para tomar decisiones de compra o venta informadas. Este proyecto se enfoca en construir una aplicación web funcional que permite a los usuarios explorar interactivamente un conjunto de datos de anuncios de venta de coches, transformando datos crudos en insights visuales accionables a través de un panel de control en la nube.
+# Proyectos seleccionados
 
-#### Herramientas y Tipo de Proyecto
+## Análisis de retención de clientes para gimnasio
+En todas las industrias, la retención de clientes es fundamental para garantizar **ingresos sostenibles** y **reducir los costos asociados con la adquisición de nuevos clientes**. Identificar los factores clave que influyen en la retención y cancelación permite al gimnasio Model Fitness anticiparse a los riesgos de abandono, **diseñar estrategias de fidelización efectivas** y **personalizar las experiencias para cada cliente**.
+
+#### Herramientas y tipo de proyecto
 ![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Git](https://img.shields.io/badge/Git-295F98?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-295F98?style=for-the-badge&logo=github&logoColor=white)
-![Render](https://img.shields.io/badge/Render-295F98?style=for-the-badge&logo=render&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-357ebd?style=for-the-badge)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23357ebd.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Limpieza de datos](https://img.shields.io/badge/Limpieza_de_datos-295F98?style=for-the-badge)
 ![Transformación de datos](https://img.shields.io/badge/Transformación_de_datos-295F98?style=for-the-badge)
 ![Análisis de datos](https://img.shields.io/badge/Análisis_de_datos-295F98?style=for-the-badge)
+![Modelos de predicción](https://img.shields.io/badge/Modelos_de_predicción-295F98?style=for-the-badge)
 
-### Preguntas Clave
-1. ¿Cómo se distribuye el kilometraje (odómetro) de los vehículos en el mercado?
-2. ¿Existe una correlación clara entre el precio de un vehículo y su condición física?
-3. ¿Cómo podemos desplegar una herramienta de datos que sea accesible para cualquier usuario a través de un navegador web?
+### Preguntas clave
+1. ¿Qué factores demográficos o de comportamiento influyen más en la cancelación?
+2. ¿Qué características diferencian a los clientes leales de los que abandonan?
+3. ¿Cómo se pueden segmentar los clientes para diseñar estrategias personalizadas?
 
 ### Metodología
-- **Gestión de Entornos:** Se creó un entorno virtual de Python aislado y se gestionaron las dependencias mediante requirements.txt para garantizar un despliegue consistente.
-- **Análisis Exploratorio de Datos (EDA):** Se realizó un análisis inicial en Jupyter Notebooks utilizando Plotly Express para identificar variables clave como precio, año del modelo y kilometraje.
-- **Desarrollo Web:** Se construyó un panel interactivo con Streamlit, implementando lógica para gráficos dinámicos activados por entradas del usuario (botones y casillas de verificación).
-- **Despliegue CI/CD:** Se desplegó con éxito la aplicación en la plataforma en la nube Render, vinculada directamente a GitHub para permitir la integración continua.
+- **Preprocesamiento de datos:** Se limpiaron y estandarizaron los datos, eliminando inconsistencias y verificando la ausencia de duplicados y valores faltantes.
+- **Explorartory Data Analysis (EDA):** Se analizaron características demográficas y de uso, identificando patrones en clientes que permanecen y los que cancelan.
+- **Modelado predictivo:** Se entrenaron modelos de regresión logística y bosque aleatorio para predecir la cancelación de clientes con un precisión del 85% y 84%, respectivamente.
+- **Clustering:** Se segmentaron los clientes en grupos utilizando K-means para identificar comportamientos similares.
 
-### Conclusiones e Impacto del Proyecto
-#### Logros Técnicos:
-- **Escalabilidad:** La aplicación está diseñada para manejar conjuntos de datos CSV de manera eficiente, proporcionando visualizaciones en tiempo real sin necesidad de reiniciar todo el código del back-end.
-- **Experiencia de Usuario:** Mediante el uso de componentes interactivos, los usuarios pueden alternar entre histogramas y gráficos de dispersión, haciendo que la exploración de datos sea intuitiva para partes interesadas no técnicas.
+### Conclusiones y recomendaciones
 
-### Insights de Negocio:
-- **Sensibilidad al Precio:** El análisis del gráfico de dispersión revela cómo la "condición" del vehículo impacta significativamente en la relación precio-kilometraje, un factor crítico para establecer precios competitivos.
-- **Distribución del Mercado:** Visualizar la distribución del odómetro ayuda a identificar los "niveles de uso" más comunes disponibles en los anuncios de venta actuales.
+#### Factores críticos de retención:
+- La proximidad al gimnasio, contratos más largos, la participación en sesiones grupales y mayor frecuencia de visitas están fuertemente asociados con una menor tasa de cancelación.
+- Clientes jóvenes, con contratos cortos y baja frecuencia de visitas, tienen mayores tasas de cancelación.
 
-### Visualizaciones Destacadas
-1. **Histograma Interactivo:** Los usuarios pueden generar una distribución de las lecturas del odómetro para entender el desgaste típico de los vehículos listados.
-![km](/assets/km.png)
-2. **Análisis de Gráfico de Dispersión:** Un gráfico dinámico que muestra la relación entre el precio y el kilometraje, codificado por colores según la condición del vehículo para identificar valores atípicos y el valor de mercado.
-![kk](/assets/kk.png)
+#### Estrategias recomendadas:
+- **Extender contratos cortos:** Ofrecer incentivos para ampliar contratos de 1 mes.
+- **Promover actividades grupales:** Diseñar campañas que destaquen los beneficios de participar en sesiones grupales.
+- **Campañas personalizadas:** Utilizar el modelo predictivo para identificar clientes en riesgo y ofrecer promociones específicas.
+- **Segmentación proactiva:** Clasificar clientes nuevos por edad y duración de contrato para diseñar estrategias de retención desde el inicio.
 
-**Explora la aplicación en vivo [aquí](https://project-922y.onrender.com/) o revisa el [repositorio completo](https://github.com/avdeleoncalderon/project).**
+### Visualizaciones destacadas
+1. **Distribución de cancelación según duración del contrato:** Observamos que quienes cancelaron suelen contratar en su mayoría 1 mes, al igual que quienes no cancelan. Sin embargo, quienes permanecen suelen también contratar por periodos de 1 año y 6 meses, mientras que los que cancelan en su minoría contratan en dichos periodos.
+![Contract Period Histogram](/img/p01_contract_period_histogram.png)
+2. **Matriz de correlaciones:** Se encontró que Las características `month_to_end_contract` y `contract_period` están altamente correlacionadas (0.9), lo que sugiere que se debe tener cuidado con la multicolinealidad al desarrollar modelos predictivos.
+![Corr Matrix Churn Data](/img/p01_gym_churn_corr.png)
+3. **Análisis de clústeres:** El dendrograma muestran cómo los clientes se agrupan en segmentos distintos basados en sus características, donde el número óptimo de clústeres sugerido es 4.
+![Dendrogram](/img/p01_dendrogram.png)
 
-## Análisis de patrones de transporte y factores externos: Zuber Chicago
-El objetivo de este proyecto es identificar los patrones de preferencia de los pasajeros y el impacto de factores externos (clima) en los viajes compartidos de la startup Zuber en Chicago. El estudio combina la extracción de datos mediante Web Scraping, consultas avanzadas en SQL para el análisis de competidores y pruebas estadísticas en Python para validar hipótesis sobre la duración de los viajes.
+**Explora más detalles del proyecto en el [repositorio completo](https://github.com/avdeleoncalderon/customer-retention-analysis).**
+## Análisis de comportamiento de usuarios y embudo de ventas
+Este proyecto analiza el embudo de ventas de la aplicación de una empresa de alimentos para **identificar las etapas con mayores pérdidas de usuarios** y evalúa, mediante un experimento A/A/B, si un nuevo diseño de fuentes puede **mejorar la conversión** en comparación con el diseño actual. El objetivo es proporcionar **insights basados en datos** que guíen **decisiones estratégicas sobre diseño y funcionalidad**.
 
 #### Herramientas y tipo de proyecto
 ![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-357ebd?style=for-the-badge)
 ![Plotly](https://img.shields.io/badge/Plotly-%23357ebd.svg?style=for-the-badge&logo=plotly&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-%23357ebd.svg?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-%23357ebd.svg?style=for-the-badge&logo=beautifulsoup&logoColor=white)
-![Web Scraping](https://img.shields.io/badge/Web_Scraping-%23357ebd.svg?style=for-the-badge)
-![SciPy](https://img.shields.io/badge/SciPy-%23357ebd.svg?style=for-the-badge&logo=scipy&logoColor=white)
-![Estadística Inferencial](https://img.shields.io/badge/Estadística_Inferencial-%23357ebd.svg?style=for-the-badge)
-![Hypothesis Testing](https://img.shields.io/badge/Hypothesis_Testing-%23357ebd.svg?style=for-the-badge)
+![Limpieza de datos](https://img.shields.io/badge/Limpieza_de_datos-295F98?style=for-the-badge)
+![Transformación de datos](https://img.shields.io/badge/Transformación_de_datos-295F98?style=for-the-badge)
+![Análisis de datos](https://img.shields.io/badge/Análisis_de_datos-295F98?style=for-the-badge)
+![Tests A/B](https://img.shields.io/badge/Tests_A/B-295F98?style=for-the-badge)
+![Pruebas de hipótesis](https://img.shields.io/badge/Pruebas_de_hipótesis-295F98?style=for-the-badge)
+![Visualización de datos](https://img.shields.io/badge/Visualización_de_datos-295F98?style=for-the-badge)
 
 ### Preguntas clave
-1. ¿Quiénes son los líderes actuales del mercado de taxis en Chicago?
-2. ¿Cuáles son los barrios con mayor demanda de viajes finalizados?
-3. ¿Cómo afectan las condiciones meteorológicas adversas a la duración de los viajes hacia el aeropuerto?
-4. ¿Es significativa la diferencia de tiempo de traslado en sábados lluviosos?
+1. ¿Qué eventos del embudo de ventas tienen mayores tasas de abandono?
+2. ¿Qué porcentaje de usuarios completa el embudo de ventas desde el inicio hasta el pago?
+3. ¿El cambio en el diseño de las fuentes afecta significativamente la conversión?
+4. ¿Hay diferencias estadísticas entre los grupos de control y el grupo de prueba?
 
 ### Metodología
-- **Recolección de datos:** Extracción de registros meteorológicos mediante Web Scraping y procesamiento de bases de datos relacionales con SQL (JOINs, CASE, agregaciones).
-- **Análisis Exploratorio (EDA):** Identificación de la concentración del mercado y destinos críticos como el "Loop" y el aeropuerto "O'Hare" mediante Python.
-- **Pruebas de Hipótesis:** Aplicación de la prueba t de Student para muestras independientes (Prueba de Welch) para comparar duraciones de viajes bajo distintas condiciones climáticas.
-- **Segmentación Climática:** Clasificación de intervalos temporales en categorías "Good" (Buen clima) y "Bad" (Tormenta/Lluvia).
+- **Preprocesamiento de datos:** Se ajustaron los nombres de las columnas, se eliminaron duplicados y se filtraron registros incompletos.
+- **Análisis del embudo de ventas:** Se identificaron eventos clave y la proporción de usuarios que avanzan entre etapas.
+- **Experimentación A/A/B:** Se compararon conversiones entre grupos de control y prueba mediante pruebas de hipótesis estadísticas.
 
-#### Conclusiones y recomendaciones
+### Conclusiones y recomendaciones
 
-#### Paisaje del Mercado y Geografía:
-- Dominio de Flash Cab: La empresa lidera con más de 19,000 viajes en el periodo analizado, casi duplicando a su competidor más cercano, sugiriendo una infraestructura de flota superior.
-- Hub Financiero: El "Loop" y "River North" concentran la mayor demanda, confirmando que el tráfico es predominantemente corporativo y turístico.
-- Sensibilidad Climática: Se rechazó la hipótesis nula con un p-value < 0.05, confirmando que el mal clima incrementa significativamente la duración de los viajes.
+#### Embudo de ventas:
+- El evento OffersScreenAppear es donde más usuarios abandonan (61.9%).
+- Solo el 47.7% de los usuarios completa el embudo de ventas hasta el pago exitoso.
+
+#### Resultados del experimento:
+- No se encontraron diferencias estadísticas significativas entre los grupos de control y el grupo de prueba.
+- Las nuevas fuentes no generan un impacto positivo en la conversión, por lo que no se recomienda implementar este cambio.
 
 #### Recomendaciones:
-- Tarificación Dinámica: Ajustar los algoritmos de precios durante días lluviosos para compensar el incremento en la duración del viaje.
-- Optimización de Flota: Concentrar la disponibilidad de conductores en el "Loop" durante las horas pico y reforzar la presencia en el Aeropuerto O'Hare.
-- Gestión de Expectativas (ETA): Informar al usuario sobre tiempos de llegada más largos en condiciones de "Bad weather" para mejorar la experiencia del cliente.
-
-Visualizaciones destacadas
-1. **Top 10 Empresas de Taxis:** Se observa un mercado altamente concentrado donde una sola empresa (Flash Cab) posee una ventaja competitiva masiva sobre las otras 63 registradas.
-![t10e](/assets/t10e.png)
-2. **Top 10 Barrios de Destino:** La drástica caída en el volumen después de los primeros cuatro barrios resalta la importancia logística del centro neurálgico de Chicago.
-![t10b](/assets/t10b.png)
-
-**Explora más detalles del proyecto en el [repositorio completo](https://github.com/avdeleoncalderon/portfolio/tree/main/04-sprint8-proyecto).**
-
-<!--## Análisis de ventas de videojuegos
-
-Este proyecto analiza las ventas de videojuegos por región, plataforma y género para identificar patrones clave que permitan a la tienda online Ice \*\*detectar proyectos prometedores\*\* y \*\*planificar campañas publicitarias efectivas\*\*. Al entender las dinámicas de mercado en Norteamérica, Europa y Japón, se busca \*\*optimizar estrategias de marketing\*\* y \*\*maximizar el retorno de inversión en los títulos más prometedores\*\*.
-
-
-
-\#### Herramientas y tipo de proyecto
-
-!\[Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge\&logo=python\&logoColor=white)
-
-!\[Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge\&logo=pandas\&logoColor=white)
-
-!\[Matplotlib](https://img.shields.io/badge/Matplotlib-%23357ebd.svg?style=for-the-badge\&logo=Matplotlib\&logoColor=black)
-
-!\[Seaborn](https://img.shields.io/badge/Seaborn-357ebd?style=for-the-badge)
-
-!\[SciPy](https://img.shields.io/badge/SciPy-%23357ebd.svg?style=for-the-badge\&logo=scipy\&logoColor=white)
-
-!\[Limpieza de datos](https://img.shields.io/badge/Limpieza\_de\_datos-295F98?style=for-the-badge)
-
-!\[Transformación de datos](https://img.shields.io/badge/Transformación\_de\_datos-295F98?style=for-the-badge)
-
-!\[Análisis de datos](https://img.shields.io/badge/Análisis\_de\_datos-295F98?style=for-the-badge)
-
-!\[Pruebas de hipótesis](https://img.shields.io/badge/Pruebas\_de\_hipótesis-295F98?style=for-the-badge)
-
-!\[Visualización de datos](https://img.shields.io/badge/Visualización\_de\_datos-295F98?style=for-the-badge)
-
-
-
-\### Preguntas clave
-
-1\. ¿Cuáles son las plataformas con mayores ventas globales y cómo varían estas por región?
-
-2\. ¿Qué géneros de videojuegos son más populares en Norteamérica, Europa y Japón?
-
-3\. ¿Qué relación existe entre las puntuaciones de usuarios/críticos y las ventas globales de videojuegos?
-
-4\. ¿Existen diferencias significativas en las calificaciones promedio entre plataformas y géneros?
-
-
-
-\### Metodología
-
-\- \*\*Preprocesamiento de datos:\*\* Limpieza de datos (valores ausentes, duplicados, formatos de columnas, y tipos de datos adecuados).
-
-\- \*\*Análisis exploratorio de datos:\*\* Identificación de las plataformas y géneros más populares y evaluación de la correlación entre puntuaciones de usuarios/críticos y ventas.
-
-\- \*\*Segmentación regional:\*\* Comparación de preferencias por plataformas y géneros en Norteamérica, Europa y Japón.
-
-\- \*\*Pruebas de hipótesis:\*\* Comparación de calificaciones promedio entre plataformas y géneros.
-
-
-
-\### Conclusiones y recomendaciones
-
-
-
-\#### Dinámica de ventas por región:
-
-\- Norteamérica y Europa prefieren juegos de acción y disparos en consolas como Xbox y PlayStation.
-
-\- Japón, en cambio, favorece juegos de rol en plataformas portátiles como Nintendo 3DS.
-
-
-
-\#### Efecto de las reseñas:
-
-\- Las puntuaciones de críticos tienen una correlación moderada positiva con las ventas (coeficiente ≈ 0.41).
-
-\- Las puntuaciones de usuarios presentan correlación casi nula, lo que sugiere que los consumidores priorizan otras métricas al elegir juegos.
-
-
-
-\#### Pruebas de hipótesis:
-
-\- Las calificaciones promedio de los usuarios para las plataformas Xbox One y PC son iguales.
-
-\- Las calificaciones promedio de los usuarios para los géneros de Acción y Deportes son diferentes.
-
-
-
-\#### Estrategias recomendadas:
-
-\- Dado que PS4 y Xbox One se mantienen relevantes en ventas globales, recomendamos enfocar campañas publicitarias en estas plataformas.
-
-\- Debido a las preferencias de usuarios en esta región, recomendamos enfocar promociones de RPG en Japón e impulsar títulos de acción y disparos en mercados occidentales.
-
-
-
-\### Visualizaciones destacadas
-
-1\. \*\*Distribución de ventas por género:\*\* Los géneros con mayores ventas son aquellos que pertenecen al género de acción, disparos, juegos de rol y deportes. Mientras que los géneros con menores ventas son los de rompecabezas y estrategia.
-
-!\[Genre Bar Chart](/assets/img/p02\_genre\_bar\_chart.png)
-
-2\. \*\*Comparación de reseñas y ventas:\*\* Hay una correlación positiva mediana entre la puntuación de los críticos y las ventas de videojuegos. Esto podría significar que los usuarios toman en cuenta parcialmente las puntuaciones de los críticos para comprar o no un videojuego.
-
-!\[Score Scatter Plot](/assets/img/p02\_score\_scatter\_plot.png)
-
-3\. \*\*Ventas por plataforma:\*\* El promedio de las ventas difiere en gran cantidad de la mediana de los datos debido a la dispersión de los datos. Por lo mismo, se considera que una mejor medida de tendencia central será la mediana.
-
-!\[Sales Box Plot](/assets/img/p02\_sales\_box\_plot.png)
-
-
-
-\*\*Explora más detalles del proyecto en el \[repositorio completo](https://github.com/MaleGoma/video-game-sales-analysis).\*\* -->
-
+- Optimizar la pantalla de ofertas para retener más usuarios en esa etapa.
+- Priorizar otros cambios en el diseño o funcionalidad de la aplicación con mayor potencial de impacto.
+
+### Visualizaciones destacadas
+1. **Embudo de ventas:** La etapa en la que más se pierden usuarios es en el Tutorial, donde solo el 23.7% de los usuarios en la etapa anterior llegan a esta. La siguiente etapa donde se pierden más usuarios es en OfferScreenAppear, donde el 61.9% de los usuarios de la etapa anterior pasan a esta.
+![Sales Funner Chart](/img/p03_sales_funnel_chart.png)
+2. **Periodo de tiempo de los datos:** Los datos completos están disponibles a partir del 1 de agosto de 2019, por lo que se descartaron fechas anteriores. El periodo actualizado abarca del 1 al 7 de agosto de 2019.
+![Time Period Data](/img/p03_time_period_data.png)
+
+**Explora más detalles del proyecto en el [repositorio completo](https://github.com/avdeleoncalderon/sales-funnel-analysis).**
+
+## Análisis de Base de Datos para Startup de Libros
+
+En el contexto post-pandemia, el mercado de aplicaciones de lectura creció exponencialmente. Este proyecto analiza una base de datos de un servicio de libros para identificar **patrones de consumo, popularidad de autores y editoriales, y comportamiento de los usuarios** mediante reseñas y calificaciones. El objetivo es generar **insights accionables** que sirvan de base para la **propuesta de valor de un nuevo producto digital** dirigido a lectores.
+
+### Herramientas y tipo de proyecto
+![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-357ebd?style=for-the-badge&logo=postgresql&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-357ebd?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-357ebd?style=for-the-badge&logo=python&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-357ebd?style=for-the-badge&logo=tableau&logoColor=white)
+![Análisis de datos](https://img.shields.io/badge/Análisis_de_datos-295F98?style=for-the-badge)
+![Visualización de datos](https://img.shields.io/badge/Visualización_de_datos-295F98?style=for-the-badge)
+![Base de datos relacional](https://img.shields.io/badge/Base_de_datos_relacional-295F98?style=for-the-badge)
+
+### Preguntas clave
+1. ¿Cuántos libros publicados después del año 2000 hay en el catálogo?
+2. ¿Qué libros generan mayor interacción (reseñas) y mejor calificación promedio?
+3. ¿Qué editorial lidera en volumen de publicaciones sustanciales (>50 páginas)?
+4. ¿Qué autor tiene la calificación promedio más alta, considerando solo libros con al menos 50 calificaciones?
+5. ¿Cuál es el comportamiento de los usuarios más activos (con más de 50 calificaciones) en cuanto a reseñas de texto?
+
+### Metodología
+- **Extracción de datos:** Conexión a base de datos PostgreSQL mediante `SQLAlchemy` y exploración de tablas (`books`, `authors`, `publishers`, `ratings`, `reviews`).
+- **Consultas SQL:** Formulación de consultas con agregaciones, joins, subconsultas y filtros (ej. `LEFT JOIN` para preservar catálogo, `COALESCE` para valores nulos, y condiciones como `HAVING COUNT(rating_id) >= 50` para robustez estadística).
+- **Análisis y visualización:** Los resultados se presentaron en DataFrames de Pandas y se generó una gráfica de barras horizontales con etiquetas integradas para comunicar el top de libros por reseñas y calificación.
+- **Interpretación de resultados:** Cada hallazgo se vinculó a una conclusión de negocio, orientando futuras decisiones estratégicas.
+
+### Conclusiones y recomendaciones
+- **Catálogo moderno:** 819 libros publicados después del 2000, lo que indica una oferta actualizada y atractiva.
+- **Engagement:** Sagas como *Harry Potter* y *Twilight* lideran en número de reseñas, pero *Harry Potter* mantiene una calificación superior (4.41 vs 3.66), sugiriendo que la calidad sostenida genera mayor lealtad.
+- **Editorial clave:** *Penguin Books* es la editorial con más títulos de más de 50 páginas (42 libros), posicionándose como el socio comercial ideal.
+- **Autor destacado:** *J.K. Rowling* presenta la calificación promedio más alta (4.29) entre libros con al menos 50 calificaciones, confirmando el valor de autores consagrados.
+- **Usuarios influyentes:** Los lectores que califican más de 50 libros escriben en promedio 24.3 reseñas de texto, identificando un segmento de "super-usuarios" que generan contenido valioso para la comunidad.
+
+**Recomendaciones estratégicas:**
+- **Curaduría basada en sagas:** Implementar un sistema de recomendaciones que destaque colecciones completas.
+- **Programa de "Lectores Expertos":** Crear un sistema de recompensas (badges, niveles) para usuarios con alta actividad, fomentando la generación de reseñas.
+- **Alianza editorial prioritaria:** Establecer acuerdos de contenido con *Penguin Books* para garantizar un catálogo amplio.
+- **Enfoque en libros modernos:** Mantener la curaduría centrada en publicaciones posteriores al año 2000.
+
+### Visualizaciones destacadas
+1. **Top 10 libros por reseñas y calificación:** Gráfico de barras horizontal que muestra el número de reseñas junto con el rating promedio integrado dentro de cada barra, facilitando la lectura rápida de los libros más conversados y mejor valorados.
+
+![Top 10 Books](/img/p02_top_books.png)
+
+**Explora más detalles del proyecto en el [repositorio completo](https://github.com/avdeleoncalderon/editorial-sql-analysis).**
