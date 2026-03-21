@@ -17,8 +17,6 @@ Análisis de datos | Resolución de problemas | Comunicación efectiva | Trabajo
 
 # Proyectos Seleccionados
 
-# Proyectos seleccionados
-
 ## Análisis de retención de clientes para gimnasio
 En todas las industrias, la retención de clientes es fundamental para garantizar **ingresos sostenibles** y **reducir los costos asociados con la adquisición de nuevos clientes**. Identificar los factores clave que influyen en la retención y cancelación permite al gimnasio Model Fitness anticiparse a los riesgos de abandono, **diseñar estrategias de fidelización efectivas** y **personalizar las experiencias para cada cliente**.
 
