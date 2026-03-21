@@ -156,6 +156,6 @@ En el contexto post-pandemia, el mercado de aplicaciones de lectura creció expo
 ### Visualizaciones destacadas
 1. **Top 10 libros por reseñas y calificación:** Gráfico de barras horizontal que muestra el número de reseñas junto con el rating promedio integrado dentro de cada barra, facilitando la lectura rápida de los libros más conversados y mejor valorados.
 
-![Top 10 Books](/img/p02_top_books.png)
+<img src="/img/p02_top_books.png" alt="Top 10 Books" width="800">
 
 **Explora más detalles del proyecto en el [repositorio completo](https://github.com/avdeleoncalderon/editorial-sql-analysis).**
