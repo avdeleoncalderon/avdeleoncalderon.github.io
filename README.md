@@ -11,8 +11,6 @@ Genero insights accionables que optimizan procesos y apoyan la toma de decisione
 ### Habilidades blandas
 Análisis de datos | Resolución de problemas | Comunicación efectiva | Trabajo en equipo | Orientación a resultados | Organización | Proactividad | Atención al detalle | Optimización de Procesos
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-357ebd?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ari-vladimir/).
-[![Gmail](https://img.shields.io/badge/Gmail-357ebd?style=for-the-badge&logo=gmail&logoColor=white)]  av.deleoncalderon@gmail.com
 * * *
 
 # Proyectos Seleccionados
